@@ -1,0 +1,222 @@
+/* палитра цветов проекта
+#212121, #2196F3, #757575, #000000, #ECECEC, #FFFFFF, #F5F4FA, #2F303A, #EEEEEE */
+
+:root {
+    --primery-color: #212121;
+    --additional-color: #757575;
+    --secondery-color: #2196F3;
+    --background-color: #FFFFFF;
+    --logo-color: #000000;
+    --footer-color: #2F303A;
+} 
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Roboto';
+    color: var(--primery-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* шапка */
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.header > .logo {
+    color: var(--logo-color);
+}
+
+.first {
+    color: var(--secondery-color);
+}
+
+.nav-link {
+    color:var(--primery-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--secondery-color);
+    border: none;
+}
+
+.nav-link.curent {
+    color: var(--secondery-color);
+}
+
+.contacts-link {
+    color: var(--additional-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts-link.active:hover,
+.contacts-link.active:focus {
+    color: var(--secondery-color);
+    border: none;
+}
+
+/* герой */
+.herou {
+    background-color: var(--footer-color);
+}
+
+.herou-title {
+    color: var(--background-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 0.73;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.herou-btn {
+    background-color: var(--secondery-color);
+    color: var(--background-color);
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.herou-btn:active,
+.herou-btn:hover,
+.herou-btn:focus {
+    background-color: #188CE8;
+}
+
+
+/* особливості */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.features-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.87;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.features-text {
+    color: var(--additional-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+}
+
+/* команда */
+.team {
+    border-color: #F5F4FA;
+}
+
+.member-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.84;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.member-position {
+    color: var(--additional-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.84;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* підвал */
+.footer {
+    background-color: var(--footer-color);
+    color: var(--background-color);
+}
+
+.footer > .logo {
+    color: var(--background-color);
+}
+
+.address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+    font-style: normal;
+}
+
+.footer-link {
+    color: #FFFFFF60;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 0.58;
+    letter-spacing: 0.03em;
+}
+
+
+/* сторінка Портфоліо */
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 0.85;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.filters-btn {
+    background-color: #F5F4FA;
+    color: var(--primery-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border: none;
+}
+
+.filters-btn:hover,
+.filters-btn:focus {
+    background-color: var(--secondery-color);
+    color: var(--background-color);
+    border: none;
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.5;
+    letter-spacing: 0.06em;   
+}
+
+.project-text {
+    color: var(--additional-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
