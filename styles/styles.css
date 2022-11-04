@@ -27,7 +27,6 @@ ul {
 /* шапка */
 .logo {
     font-family: 'Raleway';
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -67,8 +66,8 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.contacts-link.active:hover,
-.contacts-link.active:focus {
+.contacts-link:hover,
+.contacts-link:focus {
     color: var(--secondery-color);
     border: none;
 }
@@ -91,23 +90,23 @@ ul {
 .herou-btn {
     background-color: var(--secondery-color);
     color: var(--background-color);
+    font-family: inherit;
     border: none;
-    font-weight: 700;
     font-size: 16px;
+    line-height: 0.53px;
+    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
 }
 
 .herou-btn:active,
-.herou-btn:hover,
-.herou-btn:focus {
+.herou-btn:hover {
     background-color: #188CE8;
 }
 
 
 /* особливості */
 .title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -115,7 +114,6 @@ ul {
 }
 
 .features-subtitle {
-    font-weight: 700;
     font-size: 14px;
     line-height: 0.87;
     letter-spacing: 0.03em;
@@ -124,7 +122,6 @@ ul {
 
 .features-text {
     color: var(--additional-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 0.58;
     letter-spacing: 0.03em;
@@ -145,7 +142,6 @@ ul {
 
 .member-position {
     color: var(--additional-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 0.84;
     text-align: center;
@@ -163,16 +159,14 @@ ul {
 }
 
 .address {
-    font-weight: 400;
     font-size: 14px;
     line-height: 0.58;
     letter-spacing: 0.03em;
     font-style: normal;
 }
 
-.footer-link {
+.footer-links {
     color: #FFFFFF60;
-    font-weight: 400;
     font-size: 14px;
     line-height: 0.58;
     letter-spacing: 0.03em;
@@ -181,7 +175,6 @@ ul {
 
 /* сторінка Портфоліо */
 .portfolio-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 0.85;
     text-align: center;
@@ -190,7 +183,7 @@ ul {
 
 .filters-btn {
     background-color: #F5F4FA;
-    color: var(--primery-color);
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -207,7 +200,6 @@ ul {
 }
 
 .project-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 0.5;
     letter-spacing: 0.06em;   
@@ -215,7 +207,6 @@ ul {
 
 .project-text {
     color: var(--additional-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
