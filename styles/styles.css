@@ -41,7 +41,7 @@ ul {
 }
 
 .nav-link {
-    color:var(--primery-color);
+    color: var(--primery-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -200,6 +200,8 @@ ul {
 }
 
 .project-title {
+    color: var(--primery-color);
+    font-style: normal;
     font-size: 18px;
     line-height: 0.5;
     letter-spacing: 0.06em;   
